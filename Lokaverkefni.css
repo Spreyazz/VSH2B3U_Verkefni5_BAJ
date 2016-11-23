@@ -1,0 +1,364 @@
+/*
+texti sem ég nota
+font-family: 'Playfair Display', serif;
+*/
+/* gera bACKROUND steingráann*/
+body {
+  /*max-width: 60em; /*960px*/
+  margin: 0 auto;
+  /*border: green solid 5px;*/
+  background: linear-gradient(#99968B, #99968B, black);
+}
+.liturbody2 {
+  background: linear-gradient(#00FF1E, blue); /* Standard syntax */
+
+}
+.textiPlayfairborder {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	text-align: center;
+	/*border: blue solid 6px;*/
+	/*background-color: #00FF1E;*/
+}
+.textiPlayfair {
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	/*background-color: blue;*/
+}
+.texti4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	color: white;
+}
+/*
+	================================
+			HEADER OG FOOTER
+	================================
+*/
+/*----------Menu-----------*/
+header {
+	border: blue solid 2px;
+}
+header label {
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+	color: black;
+	font-size: 20px;
+	box-sizing: border-box;
+	padding: 10px 20px 10px 20px;
+}
+header label:hover {
+	color: yellow;
+}
+header li {
+	border-top: 1px solid black;
+	margin-top: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+header a {
+	text-decoration: none;
+	display: inline-block;
+}
+header li:hover {
+	background-color: black;
+}
+header li a:hover {
+	color: yellow;
+}
+header input {
+	display: none;
+}
+header input:checked ~ ul {
+	max-height: 600px;
+}
+header ul {
+	max-height: 0;
+	overflow: hidden;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	transition: all 800ms;
+	cursor: pointer;
+}
+
+/*
+	================================
+		Verslun fyrir 48em
+	================================
+*/
+
+.rammi1-2 {
+	width: 50%;
+	padding: 0;
+	float: left;
+	box-sizing: border-box;
+	display: block;
+}
+.rammi2-2 {
+	width: 50%;
+	padding: 0;
+	float: right;
+	box-sizing: border-box;
+	display: block;
+}
+.rammi1-1 {
+	width: 100%;
+	box-sizing: border-box;
+	border: red solid 5px;
+}
+/*
+	================================
+	Myndir
+	================================
+
+#berjamo {
+	background-image: url(vsh Myndir lokaverkfni/berjamo.png);
+}
+*/	
+/*
+	================================
+		Header og footer eftir 48em
+	================================
+*/
+@media screen and (min-width: 48em) {
+	header ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		list-style: none;
+		max-height: 600px;
+		color: black;
+		/*background-color: #75797F;*/
+		cursor: pointer;
+	}
+	header li {
+		display: inline-block;
+	}
+	header a {
+    color: white;
+    padding: 10px 100px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color: #3B3C40;
+    font-size: 18px;
+	}
+  	header li a:hover {
+      background: #314b60;
+      box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+  	}
+ 	header label{
+   	display: none;
+   	width: 100%;
+  	}
+  
+}
+/*
+  ========================================
+  Social buttons
+  ========================================
+*/
+@keyframes media-links{
+  0% {transform: translate(100px);}
+  50% {transform: translate(-50px);}
+  100% {transform: translate(0);}
+}
+.smedia {
+  width: 48px;
+  height: 192px;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+}
+.smedia a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2px;
+  background-image: url(logos.png);
+  transform: translateX(50px);
+  animation-name: media-links;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.twitter {
+  background-color: #2D52FF;
+  background-position: 0 0;
+}
+.twitter:hover {
+  background-color: #198699;
+}
+.fb {
+  background-color: #0F1699;
+  background-position: 0 -48px;
+  animation-delay: 50ms;
+}
+.fb:hover {
+  background-color: #495EE5;
+}
+.pin {
+  background-color: #66201D;
+  background-position: 0 -96px;
+  animation-delay: 100ms;
+}
+.pin:hover {
+background-color: #CC403A;
+}
+.insta {
+  background-color: #CC7E45;
+  background-position: 0 -144px;
+  animation-delay: 150ms;
+}
+.insta:hover{
+  background-color: #663F22;
+}
+/*
+  ========================================
+  Slideshow
+  ========================================
+ef ég læt fleirri myndir verð ég að hækka um 100%
+fyrir hverja mynd t.d ".inner" width: 300%;
+þyrfti að hækka þetta í 400% ef ég ætla að hafa
+4 myndir en er bara með 3 svo ég hef þetta í 300%.
+það er 100% width fyrir hverja mynd*/
+@keyframes slideshow {
+	0% {margin-left: 0%}
+	10% {margin-left: -100%}
+	20% {margin-left: -100%}
+	30% {margin-left: -200%}
+	40% {margin-left: -200%}
+	50% {margin-left: -300%}
+	60% {margin-left: -300%}
+	70% {margin-left: -200%}
+	80% {margin-left: -200%}
+	90% {margin-left: -100%}
+	95% {margin-left: -100%}
+	100% {margin-left: 0%}
+}
+.slider {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.inner {
+	animation-name: slideshow;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	width: 400%;
+}
+article {
+	/*width: 33.333%;*/
+	width: 25.000%;
+	float: left;
+}
+img {
+	width: 100%;
+}
+
+label {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+input:checked + label .inner{
+	animation-play-state: paused;
+}
+input#slideshow {
+	display: none;
+}
+/*
+	================================
+	ClearFix
+	================================
+*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	clear: both;
+	*zoom: 1;
+}
+/*
+	================================
+	Verslun Myndir
+	================================
+*/
+.blar-bakrunnur {
+	background-color: #3032BF;
+}
+@media screen and (min-width: 72em) {
+	.Verslun-Myndir1-2 {
+		width: 70%;
+		float: left;
+		box-sizing: border-box;
+	}
+	.Verslun-Myndir2-2 {
+		width: 30%;
+		float: right;
+		text-align: center;
+		box-sizing: border-box;
+	}
+}
+/*
+	================================
+	Verslun Myndir Verslunar bar
+	================================
+*/
+label
+{
+	display: block;
+}
+.inline-label
+{
+	display: inline;
+}
+fieldset
+{
+	border-radius: 10px;
+}
+input
+{
+	border: 2px solid;	
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 20px;
+	outline: none;
+}
+input:valid
+{
+	border:2px solid green;
+}
+input:invalid
+{
+	border:2px solid red;
+}
+input[type=submit]
+{
+	display: block;
+	margin: auto;
+	width: 100px;
+	border: 2px solid black;
+}
+textarea
+{
+	height: 200px;
+	width: 200px;
+}
+/*
+	================================
+	LOGO
+	================================
+*/
+.LOGO
+{
+	height: 50px;
+	width: 50px;
+}

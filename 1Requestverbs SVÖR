@@ -1,0 +1,20 @@
+POST =býr til ný gögn, sendir gögn á milli síðna til texta sem er latinn inn í form
+GET = nær í gögn sem eru til nú þegar og linkurinn þarfhafa allt sem þarf til vita hvað á að gera t.d mynd með id og svo er texti bakvið hana
+PUT = uppfærirgögn
+DELETE = eyðir gögnum sem eru til í postinu
+
+200 = miðlarinn gefur þer upp 200 sem segir þer að get ið gekk upp
+301 = að gögnin hafa verið færð um url
+400 = beiðnin er/var gölluð
+404 = gögnin finnast ekki/ekki til á servernum
+500 = internet server error
+
+http://tsuts.tskoli.is/2t/1502993229/GSO_Verkefni4/index.php
+
+protocol = http://
+host = tsuts.tskoli.is
+resource path = /2t/1502993229/GSO_Verkefni4/index.php
+
+ég sem client sendi nota http útaf það er ekkert password svo ég þarf ekki secret 
+ég sendi á serverinn tsuts.tskoli.is beiðni um að sja index sem er inni folder(GSO_Verkefni4) sem er inni folder(1502993229)
+og þá sendir serverinn mér gögnin sem ég bað um t.d index.php
