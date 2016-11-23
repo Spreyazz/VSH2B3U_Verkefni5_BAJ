@@ -25,5 +25,4 @@
             <label>
                 Comments
                 <textarea name="comments"></textarea>
-            </label>
-</div>
+            </label></div>

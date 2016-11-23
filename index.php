@@ -21,10 +21,11 @@ síða 2 allar myndir hægt verður að klikka á hverja og þá upnast hún á 
             
 	    </header>
 <!--SLIDESHOW-->
+    <?php require './includes/SlideShow.php'; ?>
 	    <input type="checkbox" id="slideshow">
             <label for="slideshow">
             <div class="slider">
-                <div class="inner">
+                <div class="inner">asd
                     <article>
                         <img src="Myndir/audi.png">
                     </article>
@@ -75,10 +76,9 @@ síða 2 allar myndir hægt verður að klikka á hverja og þá upnast hún á 
 </div>
 -->
 <!--Adilar-->
-    <?php require './includes/Adilar.php'; ?>
-
+<?php require './includes/Adilar.php'; ?>
 <!-- Social Media Buttons -->
-    <?php require './includes/SocialMediaButtons.php'; ?>
+<?php require './includes/SocialMediaButtons.php'; ?>
 <!-- Contact -->
 <?php require './includes/Contact.php'; ?>
 <!-- Script -->
