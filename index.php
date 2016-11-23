@@ -13,8 +13,8 @@ síða 2 allar myndir hægt verður að klikka á hverja og þá upnast hún á 
     <link rel="icon" type="image/ico" href="VSH_Skilaverkefni2_BAJ.png">
 </head>
 <!-- <div class="LOGO">
-<img src="VSH_Skilaverkefni2_BAJ.svg">-->
-</div>
+<img src="VSH_Skilaverkefni2_BAJ.svg">
+</div>-->
 <body class="group liturbody2">
 	<header class="group">
     <?php require './includes/Menu.php'; ?>
@@ -42,7 +42,7 @@ síða 2 allar myndir hægt verður að klikka á hverja og þá upnast hún á 
             </label>
             
 <!--Fyrirtæki-->
-
+<!--
 <div class="group">
         <div class="textiPlayfairborder" id="Verslun1">
             Verslun
@@ -73,12 +73,15 @@ síða 2 allar myndir hægt verður að klikka á hverja og þá upnast hún á 
             <a href="Mynd.php?id=8"><img src="Myndir/flugeldar.png"></a>
         </div>
 </div>
+-->
 <!--Adilar-->
     <?php require './includes/Adilar.php'; ?>
-<!-- Contact -->
-    <?php require './includes/Contact.php'; ?>
+
 <!-- Social Media Buttons -->
     <?php require './includes/SocialMediaButtons.php'; ?>
+<!-- Contact -->
+<?php require './includes/Contact.php'; ?>
+<!-- Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="animated-scroll.js"></script>
 </body>

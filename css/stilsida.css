@@ -214,7 +214,7 @@ header ul {
   width: 48px;
   height: 48px;
   margin-bottom: 2px;
-  background-image: url(logos.png);
+  background-image: url(../Myndir/logos.png);
   transform: translateX(50px);
   animation-name: media-links;
   animation-duration: 1s;
