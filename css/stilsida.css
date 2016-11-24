@@ -194,9 +194,164 @@ header ul {
 }
 /*
   ========================================
-  Social buttons
+  Social buttons - M0bile
   ========================================
 */
+.sMedia {
+  display: flex;
+  position: relative;
+  background-color: none;
+  order: 5; }
+
+.sMedia a {
+  text-decoration: none; }
+
+.sMedia div {
+  display: block;
+  text-decoration: none; }
+
+.menu-gj:before,
+.icon-gj:before {
+  content: "\e900"; }
+
+.menu-facebook:before,
+.icon-facebook:before {
+  content: "\ea90"; }
+
+.menu-github:before,
+.icon-github:before {
+  content: "\eab0"; }
+
+.menu-soundcloud:before,
+.icon-soundcloud:before {
+  content: "\eac4"; }
+
+.logo-gj:before {
+  content: "\e900"; }
+
+.logo-gj {
+  color: #0070b0;
+  font-size: 4em;
+  transition: all 1s ease; }
+
+.logo-gj:hover {
+  color: #f00;
+  transition: all 1s ease; }
+
+.text-gj:before {
+  content: "\e900"; }
+
+.icon-gj,
+.icon-github,
+.icon-facebook,
+.icon-soundcloud {
+  color: #fff;
+  font-size: 1.8em;
+  margin-top: .3em; }
+
+.text-gj {
+  font-size: .8em; }
+
+/*************logo******************/
+.logo {
+  margin: 0 0 .5em 2em; }
+
+/***********Social******************/
+.gjg {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  padding: .6em 0 0 .6em;
+  background: #1691be;
+  transition: all 1s ease; }
+
+.facebook {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  padding: .6em 0 0 .6em;
+  background: #166ba2;
+  transition: all 1s ease; }
+
+.github {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  padding: .6em 0 0 .6em;
+  background: #e9931a;
+  transition: all 1s ease; }
+
+.soundcloud {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  padding: .6em 0 0 .6em;
+  background: #f45136;
+  transition: all 1s ease; }
+
+/*background: litur(1) + mynd(2) + sta├░setning X-Y(3) + fixed/scroll(4) + repeat(5) */
+/**************** hover effects ******************/
+.gjg:hover {
+  background: #97daf2;
+  transition: all 1s ease;
+  width: 4em; }
+
+.facebook:hover {
+  background: #5bd200;
+  transition: all 1s ease;
+  width: 4em; }
+
+.github:hover {
+  background: #ff4b16;
+  transition: all 1s ease;
+  width: 4em; }
+
+.soundcloud:hover {
+  background: #fd1e00;
+  transition: all 1s ease;
+  width: 4em; }
+
+/* extra - https://css-tricks.com/centering-in-the-unknown/ */
+.auglysing {
+  display: flex;
+  width: 100%;
+  height: 10em;
+  margin-top: 1em;
+  background-color: #eee;
+  border-radius: .4em; }
+
+.innihald {
+  vertical-align: middle;
+  text-align: center; }
+
+.txtRight {
+  display: none; }
+
+.buttmenu {
+  display: none; }
+
+@media screen and (min-width: 64em) {
+  /*  ========================================
+    Social buttons
+    ========================================*/
+  .sMedia {
+    display: block;
+    position: fixed;
+    top: 4em;
+    left: 0;
+    height: 12em;
+    width: 3em; }
+
+  .sMedia div {
+    width: 3em;
+    margin: 0;
+    padding: .5em 0 0 0; } }
+
+/*
+  ========================================
+  Social buttons
+  ========================================
+
 @keyframes media-links{
   0% {transform: translate(100px);}
   50% {transform: translate(-50px);}
@@ -226,7 +381,7 @@ header ul {
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+  /* use !important to prevent issues with browser extensions that change fonts 
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -235,7 +390,7 @@ header ul {
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
+  /* Better Font Rendering =========== 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -254,14 +409,13 @@ margin-top: .3em;
 .icon-tumblr:before {
   content: "\eab9";
 }
-.icon-github {
-  color: red;
-  font-size: 10em;
-}
-.icon-facebook {
-    color: blue;
-}
 .facebook {
+    position: relative;
+    height: 3em;
+    width: 3em;
+    padding: .6em
+}
+.github {
     position: relative;
     height: 3em;
     width: 3em;
@@ -280,7 +434,7 @@ margin-top: .3em;
   .sMedia div {
     width: 3em;
     margin: 0;
-    padding: .5em 0 0 0; } }
+    padding: .5em 0 0 0; } }*/
 /*
   ========================================
   Slideshow
