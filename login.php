@@ -24,7 +24,7 @@ if(isset($_POST['Submit']))
 <html lang="is">
 <meta charset="utf-8">
 <head>
-    <link rel="stylesheet" type="text/css" href="Lokaverkefni.css">
+    <link rel="stylesheet" type="text/css" href="./css/stilsida.css">
     <!-- linkur á stafina sem eg nota -->
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">

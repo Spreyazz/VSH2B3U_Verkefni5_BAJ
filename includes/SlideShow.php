@@ -3,16 +3,16 @@
             <div class="slider">
                     <div class="inner">
                         <article>
-                            <img src="Myndir/audi.png">
+                            <img src="../Myndir/audi.png">
                         </article>
                         <article>
-                            <img src="Myndir/DodgeChargerDaytona.png">
+                            <img src="../Myndir/DodgeChargerDaytona.png">
                         </article>
                         <article>
-                            <img src="Myndir/DodgeChargerHellcat.png">
+                            <img src="../Myndir/DodgeChargerHellcat.png">
                         </article>
                         <article>
-                            <img src="Myndir/skoda-Octavia-VRS-2017.png">
+                            <img src="../Myndir/Myndir/skoda-Octavia-VRS-2017.png">
                         </article>
                     </div>
             </div>
